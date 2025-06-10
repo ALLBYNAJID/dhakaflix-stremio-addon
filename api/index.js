@@ -1,6 +1,5 @@
-// api/index.js
 const { getRouter } = require('stremio-addon-sdk');
-const addonInterface = require('../../server');  // Adjust path if necessary
+const addonInterface = require('../server');  // one level up, root folder
 
 const router = getRouter(addonInterface);
 
